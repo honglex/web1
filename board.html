@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ELET-Welcome</title>
+    <title>ELET's Board</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,48 +24,16 @@
             <li><a href="gallery.html" class="saw">Gallery</a></li><br>
             <li><a href="edition.html" class="saw">Edition</a></li><br>
             <li><a href="board.html" class="saw">Board</a></li>
-            <br>
-            <input type="button" value="dark" onclick="
-                var target = document.querySelector('body');
-                if(this.value === 'dark'){
-                target.style.backgroundColor = 'black';
-                target.style.color = 'white';
-                this.value = 'light';
-                }
-                else{
-                target.style.backgroundColor = 'white';
-                target.style.color = 'black';
-                this.value = 'dark';
-                }
-            ">
         </ol>
         <div id="article">
-            <h3>ELET</h3>
-            <p>
-            감사합니다<br>여기 까지 오느라 힘들었지
-            <br>Detected your country as "Korea, Republic of". 
-            <br>Would you like to import usage data for that 
-            country?<br>
-            Detected your country as "Korea, Republic of". 
-            Would you like to import usage data for that country?
-            </p>
+            <h3>Board</h3>
             <p>
                 <script>
-                    var fam = ['hong', 'kim', 'inn', 'fuck']
-
-                    i = 0
-                    while(i < fam.length){
-                        document.write('<li>'+fam[i]+'</li>');
-                        i = i + 1
+                    function gogo(x, y){
+                        document.write(x+y+'<br>');
                     }
-                </script>
-
-
-            </p>
-            <p>
-                <script>
-                
-
+                    gogo('3', '7');
+                    gogo(3,5)
                 </script>
             </p>
         </div> 
